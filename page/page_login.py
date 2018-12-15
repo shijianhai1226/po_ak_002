@@ -27,3 +27,6 @@ class PageLogin(Base):
     def page_click_login_btn(self):
         # 调用base内点击元素的方法 进行点击按钮操作
         self.base_click(page.loc_btn)
+    
+    def page_aa(self):
+        print("asd")
