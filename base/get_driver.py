@@ -7,7 +7,7 @@ def get_driver():
     # 设备信息
     desired_caps['platformName'] = 'Android'
     desired_caps['platformVersion'] = '5.1'
-    desired_caps['deviceName'] = '192.168.56.101:5555'
+    desired_caps['deviceName'] = 'emulator-5554'
     # app信息
     desired_caps['appPackage'] = 'com.vcooline.aike'
     desired_caps['appActivity'] = '.umanager.LoginActivity'
